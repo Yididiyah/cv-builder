@@ -1,0 +1,63 @@
+.card {
+    /* border: 1px solid burlywood; */
+    font-size: 1.1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+}
+.card--inner {
+    width: 80%;
+    background-color: #fff;
+    margin: 10px 0;
+    box-shadow:0 0 6px 2px rgba(0,0,0,0.06);
+    /* border: 1px solid skyblue; */
+    display: flex;
+    padding: 10px;
+}
+
+.card--left {
+    flex: 5 1 auto;
+    /* border: 2px solid palegreen; */
+}
+
+.card--heading {
+    font-weight: bold;
+}
+.card--sub-heading {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.card--right {
+    flex: 1 2 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-small {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-small:hover {
+    background: #eee;
+}
+
+.btn-small:active .icon-edit,
+.btn-small:active .icon-delete{
+    transform: scale(1.3);
+}
+.icon-edit {
+    color: green;
+}
+
+.icon-delete {
+    color: red;
+}

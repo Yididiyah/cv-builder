@@ -1,0 +1,18 @@
+.preview {
+    /* border: 1px solid salmon; */
+}
+
+.preview h2{
+    border: none;
+    font-size: 1.8rem;
+}
+
+.preview h3 {
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+
+.preview-general-information {
+    padding-bottom: .4rem;
+    border-bottom: 2px solid #777;
+}
