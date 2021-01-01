@@ -10,49 +10,18 @@ import Preview from './Components/Preview/Preview'
 class App extends React.Component {
 
   state = {
-    mode: 'preview',
+    mode: 'edit',
     info: {
       generalInformation: {
-        fullName: 'Yididiya Hailemichael',
-        occupation: 'Web Developer',
-        email: 'yididiya@gmail.com',
-        phone: '251913645783',
-        city: 'Addis Ababa',
-        country: 'Ethiopia'
+        fullName: '',
+        occupation: '',
+        email: '',
+        phone: '',
+        city: '',
+        country: ''
       },
-      education: [{
-        id:'qweret',
-        institutionName: 'Addis Ababa University',
-        qualification: 'Bachelors Degree, Computer Science ',
-        graduationDate: '10/25/2015'
-      },
-      {
-        id: 'abcde',
-        institutionName: 'MIT',
-        qualification: 'Bachelors Degree, Computer Science ',
-        graduationDate: '10/25/2025'
-      }
-    ],
-      workExperience: [{
-        id: 'FFX',
-        companyName: 'Fairfax Technologies',
-        role: 'Sales Representative',
-        mainTasks: 'everything',
-        city: 'Addis Ababa',
-        country: 'Ethiopia',
-        from: '2020-15-10',
-        to: '2020-15-12'
-      },
-      {
-        id: 'FFXT',
-        companyName: 'Fairfax Technologies',
-        role: 'Sales Representative',
-        mainTasks: 'everything',
-        city: 'Addis Ababa',
-        country: 'Ethiopia',
-        from: '2020-15-10',
-        to: '2020-15-12'
-      }]
+      education: [],
+      workExperience: []
     }
   }
 
